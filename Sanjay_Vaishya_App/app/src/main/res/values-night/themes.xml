@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.SanjayVaishyaApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Status Bar Configuration -->
+        <item name="android:statusBarColor">@android:color/white</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+
+    <style name="Theme.SanjayVaishyaApp" parent="Base.Theme.SanjayVaishyaApp" />
+
+    <!-- Splash Screen Theme: Edge-to-Edge and Full Screen -->
+    <style name="Theme.Splash" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:windowBackground">@drawable/splash_screen</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowLayoutInDisplayCutoutMode" tools:targetApi="p">shortEdges</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+        <!-- This attribute is crucial for the core-splashscreen library to work -->
+        <item name="postSplashScreenTheme">@style/Theme.SanjayVaishyaApp</item>
+    </style>
+</resources>
