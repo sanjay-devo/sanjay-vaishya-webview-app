@@ -213,7 +213,8 @@ Developer | Assistance | Help & Support
 ## Contact & Support
 
 For issues, questions, or support, please contact:
-- Email: [Your contact email]
+- Mobile: +91-9203251821
+- Email: sanjayvaishya.dev@gmail.com
 - Website: https://app-sanjay.indiacybercafe.com/
 
 ---
